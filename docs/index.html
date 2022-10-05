@@ -4,9 +4,218 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <link href="./css/style-2.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Typographic library</title>
 </head>
 <body>
-    Zkouška 3
+    <header>
+        <nav class="navbar">
+            <ul class="navbar__menu">
+                <li><a href="#headings">Headings</a></li>
+                <li><a href="#text">Text</a></li>
+                <li><a href="#list">Lists</a></li>
+                <li><a href="#table">Table</a></li>
+                <li><a href="#buttons">Buttons</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <h1>Typography Library</h1>
+            <p>This is a free typography CSS library that was created for a school project.</p>
+            <a class="button btn-primary"
+                href="https://pslib-cz.github.io/2021l4web-typographic-library-Adam-Safr/download/maestro.css">Download CSS</a>
+        </section>
+        <section id="headings">
+            <h2>Headings</h2>
+            <p class="headings__info">Search engines use the headings to index the structure and content of your web
+                pages. Users often skim a page by its headings. It is important to use headings to show the document
+                structure. In the code sample below you can see how to implement heading in your code.</p>
+            <div>
+                <div class="text-box">
+                    <h2 class="text-h1">Heading <span class="headings__items">h1</span></h2>
+                    <h2>Heading <span class="headings__items">h2</span></h2>
+                    <h3>Heading <span class="headings__items">h3</span></h3>
+                    <h4>Heading <span class="headings__items">h4</span></h4>
+                    <h5>Heading <span class="headings__items">h5</span></h5>
+                    <h6>Heading <span class="headings__items">h6</span></h6>
+                </div>
+            </div>
+        </section>
+        <section id="text">
+            <h2>Types of text<code>&lt;p&gt; &lt;a&gt; &lt;b&gt; &lt;i&gt; &lt;s&gt; &lt;small&gt;</code></h2>
+            <div class="text-box">
+                <p>Normal paragraph. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Class aptent taciti
+                    sociosqu ad litora
+                    torquent per conubia nostra, per inceptos hymenaeos. Sed ac dolor sit amet purus malesuada congue.
+                </p>
+                <p>this text is written in<span class="all-caps"> uppercase</span>, this text is <small>small</small>. This text is this text is <b>bold</b> and this text is <u>underlined</u>. This
+                    text is <mark>highlited</mark> and this text is <s>striked</s>. There is even <i>italic text</i> and the last text is<a
+                        href="#"> clickable</a>.
+            </div>
+        </section>
+        <section id="list">
+            <h2>Lists</h2>
+            <div class="box">
+                <h3>Unordered list</h3>
+                <p>The <code>&lt;ul&gt;</code> tag defines an unordered list. Use the <code>&lt;ul&gt;</code> tag
+                    together with the <code>&lt;li&gt;</code> tag to create unordered lists.</p>
+                <h3>List of WW2 wars</h3>
+                <ul>
+                    <li>French offensive into Germany: September 1939</li>
+                    <li>Operation Weserübung: April–June 1940
+                        <ul>
+                            <li>German Invasion of Denmark</li>
+                            <li>German invasion of Norway</li>
+                        </ul>
+                    </li>
+                    <li>Battle of the Netherlands: May 1940</li>
+                    <li>Battle of Belgium: May 1940</li>
+                    <li>Battle of France: May – June 1940
+                        <ul>
+                            <li>Battle of Boulogne</li>
+                        </ul>
+                    </li>
+                    <li>Battle of Britain: July – October 1940</li>
+                    <li>Operation Overlord: June – August 1944
+                        <ul>
+                            <li>Operation Jupiter</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Ordered list</h3>
+                <p>The <code>&lt;ol&gt;</code> tag defines an ordered list. An ordered list is numerical. The
+                    <code>&lt;li&gt;</code> tag is used to define each list item.</p>
+                <h3>Recipe - Croque Madame with Canadian Bacon</h3>
+                <ol>
+                    <li>Prepare baking sheet with parchment paper or silpat liner, set aside. Preheat broiler.</li>
+                    <li>In medium sized skillet add butter and melt over medium heat.
+                        <ol>
+                            <li>Once butter is melted, whisk in flour until mixture is smooth and there are no clumps.
+                            </li>
+                            <li>Slowly whisk in milk and whisk until smooth and mixture starts to thicken.</li>
+                            <li>Remove from heat and whisk in 1/2 cup swiss cheese, fresh thyme leaves, grated nutmeg,
+                                kosher salt and ground pepper. </li>
+                        </ol>
+                    </li>
+                    <li>Remove from heat and whisk in 1/2 cup swiss cheese, fresh thyme leaves, grated nutmeg, kosher
+                        salt and ground pepper. </li>
+                    <li>Top 2 slices of bread with 4 slices Canadian Bacon and 2 tablespoons shredded swiss cheese.
+                    </li>
+                    <li>Place bread slices on baking sheet. Broil in oven until cheese is melted, browned and bubbly.
+                    </li>
+                    <li>Remove from oven and top with remaining slice of bread, cheese sauce side down.
+                        <ol>
+                            <li>Top each sandwich with equal parts swiss cheese sauce and remaining shredded swiss
+                                cheese. </li>
+                            <li>Place back under broiler and cook until cheese is fully melted and bubbly.</li>
+                        </ol>
+                    </li>
+                    <li>Enjoy food!</li>
+                </ol>
+            </div>
+            </div>
+        </section>
+        <section id="table">
+            <h2>Table</h2>
+            <p>A table in HTML consists of table cells inside rows and columns.Each table cell is defined by a
+                <code>&lt;td&gt;</code> and a <code>&lt;/td&gt;</code> tag.Everything between <code>&lt;td&gt;</code>
+                and <code>&lt;/td&gt;</code> are the content of the table cell.
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Location</th>
+                        <th>Market Capitalization</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apple Inc.</td>
+                        <td>United States</td>
+                        <td>&#36;2.1T</td>
+                    </tr>
+                    <tr>
+                        <td>Saudi Aramco</td>
+                        <td>Saudi Arabia</td>
+                        <td>&#36;1.9T</td>
+                    </tr>
+                    <tr>
+                        <td>Microsoft Corporation</td>
+                        <td>United States</td>
+                        <td>&#36;1.8T</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="buttons">
+            <h2>Buttons</h2>
+            <p>The <code>&lt;button&gt;</code> tag defines a clickable button.</p>
+            <div class="box">
+                <button class="btn-primary">Button</button>
+                <button class="btn-noclick">Tlačítko</button>
+                <button class="btn-disabled">Tlačítko</button>
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Pictures</h2>
+            <p>The <code>&lt;img&gt;</code> tag is used to embed an image in an HTML page. Images are linked to web pages.</p>
+            <h3>Single Image</h3>
+            <figure class="gallery__photo">
+                <a href="./photos/mountain.jpg">
+                    <img src="./photos/mountain.jpg" alt="Painting of high mountains">
+                </a>
+            </figure>
+            <h3>Gallery with multiple images</h3>
+            <div class="gallery">
+                <figure class="gallery__photo">
+                    <a href="./photos/crystals.jpg">
+                        <img src="./photos/crystals.jpg" alt="Painting of amethyst crystals">
+                    </a>
+                </figure>
+                <figure class="gallery__photo">
+                    <a href="./photos/flower.jpg">
+                        <img src="./photos/flower.jpg" alt="Flower in a glass pot">
+                    </a>
+                </figure>
+                <figure class="gallery__photo">
+                    <a href="./photos/butterflies.jpg">
+                        <img src="./photos/butterflies.jpg" alt="Butterflies sitting on flowers">
+                    </a>
+                </figure>
+                <figure class="gallery__photo">
+                    <a href="./photos/smoke.jpg">
+                        <img src="./photos/smoke.jpg" alt="Butterflies sitting on flowers">
+                    </a>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer class="box--half">
+        <div>
+            <h2 class="footer__title">Typography library<span class="copy">&copy;</span></h2>
+            <p class="footer__name"><a href="https://github.com/Adam-Safr">Sabina Pikorová 2022</a></p>
+            <p class="footer__email"><a href="mailto:adam.safr@pslib.cz">sabpiko019@pslib.cz</a></p>
+            <div class="footer__logos">
+                <a href="https://github.com/pslib-cz/2021l4web-typographic-library-SabinaPikorova"><img class="img--logo"
+                        src="./photos/github_logo.png" /></a>
+                <a href="https://pslib.cz"><img class="pslib--logo" src="./photos/pslib_logo.svg" /></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
