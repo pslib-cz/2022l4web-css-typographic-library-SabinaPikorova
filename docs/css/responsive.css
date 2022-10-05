@@ -11,45 +11,39 @@ body {
 }
 
 /* Headings */
-h1,
-.text-h1 {
+h1 {
     font-weight: 500;
     font-size: 30px;
     margin: 0px 0px 0.7em 0px;
 }
 
-h2,
-.text-h2 {
+h2 {
     font-weight: 400;
     font-size: 23px;
     margin: 0px;
     margin: 0px 0px 0.7em 0px;
 }
 
-h3,
-.text-h3 {
+h3 {
     font-weight: 300;
     font-size: 20px;
     margin: 0px;
     margin: 0px 0px 0.7em 0px;
 }
 
-h4,
-.text-h4 {
+h4 {
     font-weight: 300;
     font-size: 19px;
     margin: 0px 0px 0.7em 0px;
 }
 
-h5,
-.text-h5 {
+h5 {
     font-weight: 300;
     font-size: 18px;
     margin: 0px 0px 0.7em 0px;
 }
 
-h6,
-.text-h6 {
+h6 {
     font-weight: 300;
     font-size: 17px;
     margin: 0px 0px 0.7em 0px;
@@ -57,26 +51,21 @@ h6,
 
 @media (min-width: 768px) {
     body {
-        font-size: 1.1rem;
     }
 
-    h1,
-    .text-h1 {
+    h1 {
         font-size: 42px;
     }
 
-    h2,
-    .text-h2 {
+    h2 {
         font-size: 31px;
     }
 
-    h3,
-    .text-h3 {
+    h3{
         font-size: 26px;
     }
 
-    h4,
-    .text-h4 {
+    h4{
         font-size: 23px;
     }
 
@@ -85,21 +74,14 @@ h6,
         font-size: 21px;
     }
 
-    h6,
-    .text-h6 {
+    h6 {
         font-size: 19px;
     }
 }
 
 /* Text */
-.all-caps {
+.uppercase {
     text-transform: uppercase;
-}
-
-b,
-strong,
-.bold {
-    font-weight: 700;
 }
 
 a {
@@ -112,82 +94,13 @@ a:hover {
     transition: 0.4s;
 }
 
-p,
-.text-paragraph {
+p{
     font-size: 16px;
     line-height: 1.5;
-    color: var(--font-color);
-}
-
-s {
-    text-decoration: line-through;
 }
 
 mark {
     background-color: var(--light-pink);
-}
-
-em,
-i {
-    font-style: italic;
-}
-
-small {
-    font-size: 0.85rem;
-}
-
-/* Quotes */
-q {
-    font-style: italic;
-    display: inline;
-}
-
-blockquote p::before {
-    content: open-quote;
-}
-
-blockquote p::after {
-    content: close-quote;
-}
-
-blockquote {
-    margin: 0;
-    border-left: 0.3rem solid #d1d1d1;
-    padding: 0 0 0 1em;
-    font-style: italic;
-}
-
-blockquote p {
-    padding: 15px;
-    background: var(--dark-grey);
-    border-radius: 5px;
-    align-self: center;
-}
-
-figure {
-    margin: 1em 0;
-}
-
-figcaption {
-    font-style: normal;
-}
-
-blockquote .author {
-    font-style: italic;
-    font-weight: 500;
-}
-
-blockquote .author::before,
-blockquote .author::after {
-    content: '\2014';
-    margin-right: .5em;
-    display: inline;
-    font-weight: normal;
-}
-
-blockquote .author::after {
-    content: '\2014';
-    margin-left: .5em;
 }
 
 /* Lists */
@@ -211,18 +124,8 @@ ol li {
     display: block;
 }
 
-ol {
-    counter-reset: item;
-}
-
 ol li {
     position: relative;
-}
-
-ol li:before {
-    content: counters(item, ".")".";
-    counter-increment: item;
-    margin-right: 5px;
 }
 
 ul,
@@ -324,9 +227,7 @@ code {
     color: var(--code-lightgrey);
 }
 
-.code-punctuation {
-    color: var(--code-grey);
-}
+
 
 @media (min-width: 768px) {
 
@@ -341,43 +242,11 @@ code {
     }
 }
 
-.line:after {
-    content: "";
-    position: absolute;
-    z-index: 99;
-    top: 0;
-    bottom: 0;
-    left: 20px;
-    border-left: 2px solid var(--dark-pink);
-    transform: translate(-50%);
-    margin: 8px 0;
-    border-radius: 20%;
-}
-
 .code-block {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     margin: 20px 0 40px 0;
-}
-
-/* Alerts */
-.message {
-    padding: 15px;
-    color: white;
-    margin: 15px 0;
-    display: flex;
-    gap: 12px;
-    border-radius: 5px;
-}
-
-.message span {
-    cursor: pointer;
-}
-
-.message p {
-    margin: 0;
-    color: var(--white);
 }
 
 /* Buttons */
@@ -408,15 +277,15 @@ button.btn-primary,
     transition: 0.2s;
 }
 
-button.btn-noclick,
-.button.btn-noclick {
+button.btn-nothing,
+.button.btn-nothing {
     cursor: default;
     background-color: var(--light-pink);
     transition: 0.2s;
 }
 
-button.btn-noclick:hover,
-.button.btn-noclick:hover {
+button.btn-nothing:hover,
+.button.btn-nothing:hover {
     background-color:   rgb(254, 184, 219);
     transition: 0.2s;
 }
@@ -441,12 +310,6 @@ button.btn-disabled,
     width: fit-content;
 }
 
-.gallery__photo:hover .gallery__caption {
-    opacity: 1;
-    background-color: black;
-    transition: 0.3s;
-}
-
 .gallery__photo a {
     display: block;
     transition: 0.3s;
@@ -466,18 +329,6 @@ button.btn-disabled,
 
 .gallery__photo a:hover img {
     transform: scale(1.07);
-    transition: 0.3s;
-}
-
-figure .gallery__caption {
-    position: absolute;
-    bottom: 0px;
-    left: 0;
-    padding: 0.8em;
-    width: 100%;
-    font-size: 13px;
-    color: #fff;
-    opacity: 0;
     transition: 0.3s;
 }
 
@@ -503,33 +354,27 @@ figure .gallery__caption {
         text-align: justify !important;
     }
 
-    h1,
-    .text-h1 {
+    h1 {
         font-size: 23pt;
     }
 
-    h2,
-    .text-h2 {
+    h2 {
         font-size: 19pt;
     }
 
-    h3,
-    .text-h3 {
+    h3 {
         font-size: 15pt;
     }
 
-    h4,
-    .text-h4 {
+    h4 {
         font-size: 14pt;
     }
 
-    h5,
-    .text-h5 {
+    h5 {
         font-size: 14pt;
     }
 
-    h6,
-    .text-h6 {
+    h6 {
         font-size: 13pt;
     }
 
@@ -547,43 +392,5 @@ figure .gallery__caption {
         width: 100% !important;
         padding: 0 !important;
         margin: 0 !important;
-    }
-
-    a {
-        page-break-inside: avoid
-    }
-
-    blockquote {
-        page-break-inside: avoid;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        page-break-after: avoid;
-        page-break-inside: avoid
-    }
-
-    img {
-        page-break-inside: avoid;
-        page-break-after: avoid;
-    }
-
-    table,
-    pre {
-        page-break-inside: avoid
-    }
-
-    ul,
-    ol {
-        page-break-before: avoid
-    }
-
-    @page {
-        size: 100%;
-        margin: 1cm;
     }
 }

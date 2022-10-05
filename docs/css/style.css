@@ -33,13 +33,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 999;
     padding: 20px 0;
-    transition: all 0.3s ease;
-}
-
-header.sticky {
-    padding: 12px 0;
 }
 
 header .navbar {
@@ -136,65 +130,6 @@ p.section__info {
     margin-bottom: 1.5em;
 }
 
-span.heading__info {
-    color: #999;
-    margin-left: 0.5em;
-}
-
-.theme-switch-wrapper {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 100px;
-    right: 80px;
-}
-
-.theme-switch-wrapper span {
-    margin-left: 10px;
-    font-size: 1rem;
-}
-
-.theme-switch {
-    display: inline-block;
-    height: 34px;
-    position: relative;
-    width: 60px;
-}
-
-.theme-switch input {
-    display: none;
-}
-
-.slider {
-    background-color: #ccc;
-    bottom: 0;
-    cursor: pointer;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    transition: .4s;
-}
-
-.slider:before {
-    background-color: #fff;
-    bottom: 4px;
-    content: "";
-    height: 26px;
-    left: 4px;
-    position: absolute;
-    transition: .4s;
-    width: 26px;
-}
-
-input:checked+.slider {
-    background-color: var(--dark-pink);
-}
-
-.gallery__block img:first-child {
-    object-position: right;
-}
-
 footer {
     display: flex;
     flex-direction: column-reverse;
@@ -244,37 +179,11 @@ footer h2 .copy {
     transition: 0.3s;
 }
 
-.footer__project {
-    color: var(--code-grey);
-    font-size: 14px;
-}
-
 footer .name span {
     display: block;
     color: #ffffff;
     font-size: 14px;
     margin-bottom: 20px;
-}
-
-.footer__logos {
-    display: flex;
-    gap: 25px;
-    color: white;
-}
-
-.footer__logos a {
-    display: block;
-    width: 80px;
-    height: 80px;
-}
-
-.footer__logos img {
-    height: 80px;
-}
-
-.footer__logos img.pslib--logo {
-    width: 210px;
-    margin-left: 3em;
 }
 
 @media (min-width: 470px) {
