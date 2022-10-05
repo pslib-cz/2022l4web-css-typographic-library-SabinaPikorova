@@ -2,24 +2,8 @@ html {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-body {
-    color: var(--font-color);
-    background-color: var(--bg-color);
-}
-
 .text-box {
     display: block;
-}
-
-.box--half {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    justify-content: space-between;
-}
-
-.box--small {
-    max-width: 20% !important;
 }
 
 @media (min-width: 768px) {
@@ -33,7 +17,7 @@ body {
     gap: 80px;
 }
 
-.first {
+.About{
     padding: 150px 80px 70px 80px;
     position: relative;
 }
@@ -70,12 +54,12 @@ header .navbar__title a {
 }
 
 header .navbar__title a span {
-    color: var(--theme-color);
+    color: var(--dark-pink);
     transition: all 0.3s ease;
 }
 
 header.sticky .navbar__title a span {
-    color: var(--white);
+    color: white;
     transition: all 0.3s ease;
 }
 
@@ -88,7 +72,7 @@ header .navbar__menu li {
     list-style: none;
     display: inline-block;
     margin: 0;
-    color: var(--white);
+    color: white;
 }
 
 header .navbar__menu li a {
@@ -111,20 +95,12 @@ header.sticky .navbar__menu li a:hover {
     font-weight: bold;
 }
 
-.menu-btn {
-    color: white;
-    font-size: 26px;
-    cursor: pointer;
-    display: none;
-}
-
 @media (min-width: 460px) {
     .navbar {
         max-width: 1300px;
         padding: 0 80px;
         margin: auto;
     }
-    
 }
 
 @media (max-width: 1000px) {
@@ -153,24 +129,6 @@ header.sticky .navbar__menu li a:hover {
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
-        color: var(--font-color);
-    }
-
-    .menu-btn {
-        display: block;
-        z-index: 999;
-    }
-
-    header .navbar__menu.active li a {
-        color: var(--font-color);
-    }
-
-    header .navbar__menu li a:hover {
-        color: var(--theme-color);
-    }
-
-    header.sticky .navbar__menu li a:hover {
-        color: var(--font-color);
     }
 }
 
@@ -230,19 +188,7 @@ span.heading__info {
 }
 
 input:checked+.slider {
-    background-color: var(--theme-color);
-}
-
-input:checked+.slider:before {
-    transform: translateX(26px);
-}
-
-.slider.round {
-    border-radius: 34px;
-}
-
-.slider.round:before {
-    border-radius: 50%;
+    background-color: var(--dark-pink);
 }
 
 .gallery__block img:first-child {
