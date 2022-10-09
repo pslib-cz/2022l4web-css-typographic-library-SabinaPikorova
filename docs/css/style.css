@@ -126,24 +126,19 @@ header.sticky .navbar__menu li a:hover {
     }
 }
 
-p.section__info {
-    margin-bottom: 1.5em;
+footer {
+    background-color: black;
 }
 
-footer {
+footer > div {
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-    overflow: hidden;
-    background-color: black;
+    flex-direction: column;
     padding: 2em 40px;
     margin-top: 80px;
     font-size: 15px;
     color: white;
-}
-
-footer>div {
-    margin: 2em 0;
+    max-width: 1300px;
+    margin: auto;
 }
 
 footer h2 {
@@ -152,20 +147,8 @@ footer h2 {
     display: inline;
 }
 
-footer h2 span {
-    color: var(--theme-color);
-}
-
-footer h2 .copy {
-    font-size: 16px;
-    color: white;
-    position: absolute;
-    top: 0;
-    right: -20px;
-}
-
-.footer__name a,
-.footer__email a {
+.footer-name,
+.footer-email {
     color: white;
     font-size: 16px;
     font-weight: normal;
@@ -173,33 +156,13 @@ footer h2 .copy {
     transition: 0.3s;
 }
 
-.footer__name a:hover,
-.footer__email a:hover {
-    color: var(--font-color);
+.footer-name:hover,
+.footer-email:hover {
     transition: 0.3s;
-}
-
-footer .name span {
-    display: block;
-    color: #ffffff;
-    font-size: 14px;
-    margin-bottom: 20px;
 }
 
 @media (min-width: 470px) {
     footer {
         padding: 4em 60px;
-    }
-}
-
-@media (min-width: 768px) {
-    footer {
-        padding: 4em 80px;
-        flex-direction: row;
-    }
-
-    footer>div {
-        margin: 0;
-        max-width: 40%;
     }
 }

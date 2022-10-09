@@ -308,6 +308,7 @@ button.btn-disabled,
 .gallery__photo {
     overflow: hidden;
     width: fit-content;
+    margin: 0;
 }
 
 .gallery__photo a {
@@ -328,7 +329,7 @@ button.btn-disabled,
 }
 
 .gallery__photo a:hover img {
-    transform: scale(1.07);
+    transform: scale(1.05);
     transition: 0.3s;
 }
 
