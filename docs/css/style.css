@@ -6,17 +6,6 @@ html {
     display: block;
 }
 
-@media (min-width: 768px) {
-    .box--half {
-        flex-direction: row;
-    }
-}
-
-.row {
-    display: flex;
-    gap: 80px;
-}
-
 .About{
     padding: 150px 80px 70px 80px;
     position: relative;
