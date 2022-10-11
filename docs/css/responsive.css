@@ -19,51 +19,14 @@ body {
 
 a {
     text-decoration: none;
-    font-weight: 500;
-}
-
-a:hover {
-    color: #000000;
-    transition: 0.4s;
-}
-
-p{
-    font-size: 16px;
-    line-height: 1.5;
 }
 
 mark {
     background-color: var(--light-pink);
 }
 
-/* Lists */
-ul {
-    margin: 1em 0;
-    padding-left: 0em;
-}
-
-ul ul li,
-ol ol li {
-    margin: 0.5em 0;
-}
-
-ul li {
-    margin-bottom: 1em;
-    display: list-item;
-}
-
-ol li {
-    margin-bottom: 1em;
-    display: block;
-}
-
-ol li {
-    position: relative;
-}
-
-ul,
-ol {
-    padding: 0;
+ul, ol {
+    padding-left: 1em;
 }
 
 /* Blocks */

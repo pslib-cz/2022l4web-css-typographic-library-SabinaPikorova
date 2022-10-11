@@ -2,16 +2,15 @@ html {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.text-box {
-    display: block;
-}
-
 .About{
     padding: 150px 80px 70px 80px;
     position: relative;
+    background-image: url(../photos/background.jpg);
+    background-position: center;
 }
 
 .navbar {
+    display: flex;
     max-width: 1300px;
     padding: 0 30px;
     margin: auto;
@@ -23,10 +22,7 @@ header {
     top: 0;
     width: 100%;
     padding: 20px 0;
-}
-
-header .navbar {
-    display: flex;
+    z-index: 1;
 }
 
 header .navbar__title a {
@@ -115,8 +111,19 @@ header.sticky .navbar__menu li a:hover {
     }
 }
 
+@media (max-width: 1500px) {
+    footer {
+        padding: 2em 80px;
+    }
+
+    footer > div {
+        padding: 0 !important;
+    }
+}
+
 footer {
     background-color: black;
+    padding-bottom: 2em;
 }
 
 footer > div {
@@ -148,10 +155,4 @@ footer h2 {
 .footer-name:hover,
 .footer-email:hover {
     transition: 0.3s;
-}
-
-@media (min-width: 470px) {
-    footer {
-        padding: 4em 60px;
-    }
 }
