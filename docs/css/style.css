@@ -84,6 +84,10 @@ mark {
     background-color: var(--light-pink);
 }
 
+.pink  {
+    color: var(--dark-pink);
+}
+
 ul, ol {
     padding-left: 1em;
 }
@@ -117,19 +121,11 @@ table thead th {
     font-weight: bold;
 }
 
-button,
-.button {
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    font-weight: 500;
+button {
     border: 1px solid transparent;
     border-radius: 6px;
-    height: 36px;
-    line-height: 34px;
-    font-size: 14px;
-    transition: color 0.3s;
-    padding: 0 18px;
+    height: 40px;
+    padding: 0 1em;
     color: white;
 }
 
@@ -155,13 +151,6 @@ button.btn-nothing:hover,
 .button.btn-nothing:hover {
     background-color:   rgb(254, 184, 219);
     transition: 0.2s;
-}
-
-button.btn-disabled,
-.button.btn-disabled {
-    background-color: rgb(255, 197, 226);
-    transition: 0.2s;
-
 }
 
 .gallery {
