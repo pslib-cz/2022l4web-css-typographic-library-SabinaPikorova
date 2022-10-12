@@ -46,6 +46,10 @@ header {
     z-index: 1;
 }
 
+header .navbar__menu {
+    padding-left: 0;
+}
+
 header .navbar__menu li {
     list-style: none;
     display: inline-block;
@@ -71,7 +75,6 @@ header .navbar__menu li a:hover {
 
 .About{
     padding: 150px 80px 70px 80px;
-    position: relative;
     background-image: url(../photos/background.jpg);
     background-position: center;
 }
