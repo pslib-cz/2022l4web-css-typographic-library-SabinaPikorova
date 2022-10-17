@@ -1,0 +1,141 @@
+.hamburger span:nth-child(1) { top: 0px; }
+  
+.hamburger span:nth-child(2) { top: 15px; transition: opacity .25s .25s; }
+  
+.hamburger span:nth-child(3) { bottom: 0px; }
+
+@media screen and(min-width: 719px) {
+    .hamburger-nav {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 959px) { 
+    .hamburger-row {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 67.2px;
+    }
+
+    .hamburger {
+        display: block;
+        position: relative;
+        width: 38px;
+        height: 34px;
+        left: 0;
+        margin: 1em 0 1.5em 2em;
+
+        --rotate-time: .25s;
+        --move-time: .4s;
+    }
+
+    .hamburger span {
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        background: white;
+        left: 0;
+
+        transition: transform ease-in-out .25s, top ease-in-out .25s .25s, bottom ease-in-out .25s .25s;
+    }
+
+    .hamburger.active span {
+        transition: transform ease-in-out .25s .25s, top ease-in-out .25s, bottom ease-in-out .25s;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg);
+        top: 15px;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg);
+        bottom: 15px;
+    }
+
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+        transition: opacity .25s .25s;
+    }
+
+    header .hamburger-nav {
+        display: block;
+        left: -100%;
+        top: 0;
+        bottom: 0;
+        position: fixed;
+        width: 50%;
+        background-color: black;
+        opacity: 90%;
+        max-width: 1300px;
+
+        transition: left ease-in-out .4s;
+    }
+
+    .hamburger-nav.active {
+        left: 0;
+        z-index: 1;
+        margin-left: 0;
+    }
+
+    .hamburger-nav ul {
+        margin: 0;
+        padding: .5em 0;
+        list-style-type: none;
+    }
+
+    .hamburger-nav li:hover {
+        background-color:var(--grey);
+    }
+    
+    .hamburger-nav li > a {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 20px 1em 20px;
+        margin: 0;
+        color: white;
+    }
+
+}
+
+@media screen and (min-width: 960px) {
+
+
+    .hamburger-nav {
+        transform: none;
+    }
+
+    .hamburger-nav ul {
+        height: 100%;
+        width: 33vw;
+        max-width: 200px;
+        list-style-type: none;
+    }
+
+    .hamburger-nav ul {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
+    }
+    
+
+    .hamburger-nav ul li {
+        margin: 0 1em;
+        font-weight: bold;
+    }
+
+
+    .hamburger-pc a span {
+        color: white;
+        font-weight: bold;
+        margin-left: 2em;
+        padding-top: 1.3em;
+    }
+
+    .hamburger-pc {
+        padding-right: 0;
+    }
+}

@@ -13,29 +13,24 @@ body {
     margin: 0;
 }
 
+main section:nth-child(2) {
+    padding-top: 2em;
+}
+
+main section:nth-child(8) {
+    padding-bottom: 3em;
+}
+
 section {
     display: block;
-    padding: 2em 40px;
+    padding: 0 2em 2em 2em;
     margin: 0 auto;
 }
 
-pre,
-code {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 13px;
-    padding: 8px 10px;
-    background-color: var(--dark-grey);
-    margin-bottom: 1em;
-    line-height: 1.3;
-    overflow: auto;
-}
-
-.navbar {
+header .navbar {
     display: flex;
     max-width: 1300px;
-    padding: 0 30px;
-    margin: auto;
-    padding: 20px 0;
+    padding: 0;
 }
 
 header {
@@ -48,14 +43,13 @@ header {
 
 header .navbar__menu {
     padding-left: 0;
+    margin: 0;
 }
 
 header .navbar__menu li {
     list-style: none;
     display: inline-block;
-    margin: 0;
     color: white;
-    margin-right: 1em;
 }
 
 header .navbar__menu li a {
@@ -67,32 +61,64 @@ header .navbar__menu li a {
 
 header .navbar__menu li a:hover {
     font-weight: bold;
-    border-top: 3px solid var(--light-pink);
+    border-top: 3.5px solid var(--light-pink);
     color: var(--light-pink);
-    padding-top: 2em;
-    margin-top: -2em;
+    padding-top: 1.3em;
+    margin-top: -1.5em;
 }
 
-.About{
-    padding: 150px 80px 70px 80px;
+.about {
     background-image: url(../photos/background.jpg);
     background-position: center;
+    padding: 6em 2em 2em 2em;
+}
+
+.about span {
+    
+}
+
+.text .uppercase {
+    text-transform: uppercase;
 }
 
 a {
     text-decoration: none;
 }
 
-mark {
-    background-color: var(--light-pink);
-}
-
-.pink  {
+.text .pink  {
     color: var(--dark-pink);
 }
 
+ul {
+    list-style: circle;
+    margin-left: 1em;
+}
+
 ul, ol {
-    padding-left: 1em;
+    padding: 0;
+}
+
+ul li, ol li {
+    margin: .5em;
+}
+
+ol {
+    counter-reset: item;
+    margin-bottom: 0;
+}
+
+ol ol {
+    margin-left: 1em;
+}
+
+ol li {
+    display: block;
+}
+
+ol li:before {
+    content: counters(item, ".")".";
+    counter-increment: item;
+    margin-right: 5px;
 }
 
 table {
@@ -132,58 +158,53 @@ button {
     color: white;
 }
 
-button.btn-primary:hover,
-.button.btn-primary:hover {
+button.btn-normal:hover,
+.button.btn-normal:hover {
     font-weight: bold;
+    cursor: pointer;
 }
 
-button.btn-primary,
-.button.btn-primary {
+button.btn-normal,
+.button.btn-normal {
     background-color: var(--dark-pink);
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 button.btn-nothing,
 .button.btn-nothing {
     cursor: default;
     background-color: var(--light-pink);
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 button.btn-nothing:hover,
 .button.btn-nothing:hover {
-    background-color:   rgb(254, 184, 219);
-    transition: 0.2s;
+    background-color:   var(--dark-pink);
+    transition: 0.3s;
 }
 
 .gallery {
     display: flex;
-    padding: 2px;
     transition: 0.3s;
     flex-wrap: wrap;
 }
 
 .gallery__photo {
-    overflow: hidden;
-    width: fit-content;
     margin: 0;
+    overflow: hidden;
 }
 
 .gallery__photo a {
-    display: block;
     transition: 0.3s;
-    position: relative;
-    max-height: 70vh;
 }
 
 .gallery__photo img {
-    transition: 0.3s;
-    display: block;
     flex: 1;
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: center;
+    transition: 0.3s;
 }
 
 .gallery__photo a:hover img {
@@ -191,16 +212,45 @@ button.btn-nothing:hover,
     transition: 0.3s;
 }
 
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 250px;
+    gap: 3px;
+}
+
+.grid-gallery #img-1 {
+    grid-column: 1 / span 1;
+}
+
+.grid-gallery #img-2 {
+    grid-column: 2 / span 2;
+}
+
+.grid-gallery #img-3 {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.grid-gallery #img-4 {
+    grid-column: 3 / span 2;
+    grid-row: 2;
+}
+
+
 footer {
     background-color: black;
     padding-bottom: 2em;
 }
 
+footer h2 {
+    margin-top: 0;
+}
+
 footer > div {
     display: flex;
     flex-direction: column;
-    padding: 2em 40px;
-    margin-top: 80px;
+    padding: 3em 2em;
     font-size: 15px;
     color: white;
     max-width: 1300px;
