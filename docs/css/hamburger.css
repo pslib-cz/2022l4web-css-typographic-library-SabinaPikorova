@@ -80,6 +80,14 @@
         margin-left: 0;
     }
 
+    .hamburger-nav.active:hover {
+
+    }
+
+    .hamburger-nav.active .navbar__menu a {
+        background-color: rgba(0, 0, 0, 0.544);
+    }
+
     .hamburger-nav ul {
         margin: 0;
         padding: .5em 0;
