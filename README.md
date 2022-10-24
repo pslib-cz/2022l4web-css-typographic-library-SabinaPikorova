@@ -15,7 +15,7 @@ Typography CSS library has predefined colors. You can find them in style.css fol
 ##Typography
 Typography css has predefined Roboto Condensed font. If this font isn't from some reason implemented on the page, sans-serif will be used. 
 ## Headings
-*```<h1>```
+-```<h1>```
 *```<h2>```
 *```<h3>```
 *```<h4>```
