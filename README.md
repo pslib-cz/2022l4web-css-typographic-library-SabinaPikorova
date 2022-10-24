@@ -5,7 +5,7 @@ This is a free typography library that was created for a school project
 ## Demo site
 Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-SabinaPikorova)** site for preview.
 ## Parts of the documentation
-1. Implementation
+1. [Implementation](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Implementation)
 2. Colors
 3. Typography
 4. Headings
