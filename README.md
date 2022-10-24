@@ -4,8 +4,6 @@
 This is a free typography library that was created for a school project
 ## Demo site
 Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-SabinaPikorova)** site for preview.
-## Dependecies
-...
 ## Implementation
 1. Download page.css in docs/download folder
 2. Add file inside your project folder
@@ -27,14 +25,14 @@ Size of normal text is ```1rem```.
 ### Styled text
 * ```<small>``` for <sub>small</sub> text
 * ```<b>``` or ```<strong>``` for **bold** text 
-* ```<u>```
-* ```<mark>```
-* ```<s>```
+* ```<u>``` for Underlined text
+* ```<mark>``` for (yellow) highlited text
+* ```<s>``` for striked text
 * ```<i>``` or ```<em>``` for italic text
 * ```<sub>``` for subscript text
 * ```<sup>``` for superscript text
 You can even use predefined classes:
-* ```<class="colored-text>``` for colored text. 
+* ```<class="colored-text>``` for colored text
 ## Lists
 ### Unordered list
 ```
