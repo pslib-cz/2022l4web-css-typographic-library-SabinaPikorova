@@ -111,9 +111,10 @@ You can even use predefined classes:
 ## Buttons
 ```<button class="btn">Button</button>```
 There are 2 predefined button classes:
-* ```class="btn-normal"```
-* ```class="btn-nothing"```
+* ```class="btn-normal"``` for classic button
+* ```class="btn-nothing"``` fur unklickable button
 ## Pictures
+For embending and image in HTML is used tag ```<img>```. Use this syntax for single picture:
 ### Single picture
 ```
 <figure class="gallery__photo">
@@ -124,6 +125,7 @@ There are 2 predefined button classes:
 </figure>
 ```
 ### Gallery
+Use this syntax for photo gallery.
 ```
 <div class="gallery">
     <figure class="gallery__photo>
