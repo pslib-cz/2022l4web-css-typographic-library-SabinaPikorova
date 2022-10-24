@@ -36,8 +36,9 @@ Size of normal text is ```1rem```.
 * ```<class="colored-text>``` 
 ##Lists
 ###Unordered list
-```<ul>
-  <li></li>
+```
+  <ul>
+    <li></li>
 ```
 ###Ordered list
   
