@@ -49,6 +49,7 @@ You can even use predefined classes:
 </ul>
 ```
 ### Ordered list
+```
 <ol>
     <li></li>
     <li>
@@ -58,6 +59,7 @@ You can even use predefined classes:
         </ol>
     <li>
 </ol>
+```
 ## Table
 ```
 <table>
