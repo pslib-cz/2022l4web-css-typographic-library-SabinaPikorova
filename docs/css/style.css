@@ -174,7 +174,7 @@ button.btn-nothing:hover,
     transition: 0.3s;
 }
 
-.gallery {
+.gallery__flex {
     display: flex;
     transition: 0.3s;
     flex-wrap: wrap;
@@ -203,27 +203,27 @@ button.btn-nothing:hover,
     transition: 0.3s;
 }
 
-.grid-gallery {
+.gallery__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-auto-rows: 250px;
     gap: 3px;
 }
 
-.grid-gallery #img-1 {
+.gallery__grid #img-1 {
     grid-column: 1 / span 1;
 }
 
-.grid-gallery #img-2 {
+.gallery__grid #img-2 {
     grid-column: 2 / span 2;
 }
 
-.grid-gallery #img-3 {
+.gallery__grid #img-3 {
     grid-column: 1 / span 2;
     grid-row: 2;
 }
 
-.grid-gallery #img-4 {
+.gallery__grid #img-4 {
     grid-column: 3 / span 2;
     grid-row: 2;
 }
