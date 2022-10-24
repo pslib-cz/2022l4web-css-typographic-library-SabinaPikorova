@@ -21,8 +21,8 @@ Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-Sab
     - [Single picture](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Single-picture)
     - [Gallery](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Gallery)
 ## Implementation
-1. Download the files you need in docs folder
-2. Add file inside your project folder
+1. Download the files you need in [docs](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova/tree/master/docs) folder
+2. Add files inside your project folder
 3. Link style.css, responsive.css and hamburger.css files to <head> in every HTML page using syntax:
 ```<link href="./css/style.ccs rel="stylesheet">```
 ```<link href="./css/responsive.ccs rel="stylesheet">```
