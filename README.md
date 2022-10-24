@@ -88,34 +88,34 @@ You can even use predefined classes:
 </table>
 ```
 ## Buttons
-```
-<button class="btn">Button</button>
-```
+```<button class="btn">Button</button>```
 There are 2 predefined button classes:
 * ```class="btn-normal"```
 * ```class="btn-nothing"```
 ## Pictures
 ### Single picture
 <figure class="gallery__photo">
-    <a href="./photos/file.jpg">
-        <img src="./photos/file.jpg" alt="alternative text">
+    <a href="./images/file.jpg">
+        <img src="./images/file.jpg" alt="alternative text">
         <figcaption class="gallery__caption">Caption</figcaption>
     </a>
 </figure>
+```
 ### Gallery
 ```
 <div class="gallery">
     <figure class="gallery__photo>
-        <a href="./photos/file.jpg">
-            <img src="./photos/file.jpg" alt="alternative text">
+        <a href="./images/file.jpg">
+            <img src="./images/file.jpg" alt="alternative text">
         </a>
     </figure>
     <figure class="gallery__photo>
-        <a href="./photos/file.jpg">
-            <img src="./photos/file.jpg" alt="alternative text">
+        <a href="./images/file.jpg">
+            <img src="./images/file.jpg" alt="alternative text">
         </a>
     </figure>
 </div>
+```
 
                                                                
                                                             
