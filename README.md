@@ -6,20 +6,20 @@ This is a free typography library that was created for a school project
 Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-SabinaPikorova)** site for preview.
 ## Parts of the documentation
 1. [Implementation](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Implementation)
-2. Colors
-3. Typography
-4. Headings
-5. Types of text
-   - Normal text
-   - Styled text
-7. Lists
-   - Unordered list
-   - Ordered list
-9. Table
-10. Buttons
-11. Pictures
-    - Single picture
-    - Gallery
+2. [Colors](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Colors)
+3. [Typography](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Typography)
+4. [Headings](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Headings)
+5. [Types of text](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Types-of-text)
+   - [Normal text](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Normal-text)
+   - [Styled text](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Styled-text)
+7. [Lists](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Lists)
+   - [Unordered list](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Unordered-list)
+   - [Ordered list](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Ordered-list)
+9. [Table](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Table)
+10. [Buttons](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Buttons)
+11. [Pictures](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorovaPictures)
+    - [Single picture](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Single-picture)
+    - [Gallery](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Gallery)
 ## Implementation
 1. Download page.css in docs/download folder
 2. Add file inside your project folder
