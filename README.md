@@ -1,5 +1,5 @@
 # Typography CSS library
-**Author:** *Sabina Pikorová*
+**Author:** [Sabina Pikorová](https://github.com/SabinaPikorova)
 ## Description
 This is a free typography library that was created for a school project
 ## Demo site
