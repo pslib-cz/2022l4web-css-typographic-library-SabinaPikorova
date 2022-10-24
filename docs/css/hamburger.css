@@ -74,16 +74,6 @@
         transition: left ease-in-out .4s;
     }
 
-    .hamburger-nav.active {
-        left: 0;
-        z-index: 1;
-        margin-left: 0;
-    }
-
-    .hamburger-nav.active:hover {
-
-    }
-
     .hamburger-nav.active .navbar__menu a {
         background-color: rgba(0, 0, 0, 0.544);
     }
@@ -104,6 +94,12 @@
         padding: 1em 20px 1em 20px;
         margin: 0;
         color: white;
+    }
+
+    .hamburger-nav.active {
+        left: 0;
+        z-index: 1;
+        margin-left: 0;
     }
 
 }
