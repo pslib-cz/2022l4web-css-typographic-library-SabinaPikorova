@@ -96,6 +96,7 @@ There are 2 predefined button classes:
 * ```class="btn-nothing"```
 ## Pictures
 ### Single picture
+```
 <figure class="gallery__photo">
     <a href="./images/file.jpg">
         <img src="./images/file.jpg" alt="alternative text">
