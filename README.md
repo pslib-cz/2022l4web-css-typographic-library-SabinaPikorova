@@ -21,10 +21,10 @@ Typography css has predefined Roboto Condensed font. If this font isn't from som
 * ```<h4>```
 * ```<h5>```
 * ```<h6>```
-##Types of text
-###Normal text
+## Types of text
+### Normal text
 Size of normal text is ```1rem```.
-###Styled text
+### Styled text
 * ```<small>``` for <sub>small</sub> text
 * ```<b>``` or ```<strong>``` for **bold** text 
 * ```<u>```
@@ -34,11 +34,23 @@ Size of normal text is ```1rem```.
 * ```<sub>``` for subscript text
 * ```<sup>``` for superscript text
 * ```<class="colored-text>``` 
-##Lists
-###Unordered list
+## Lists
+### Unordered list
 ```
   <ul>
-    <li></li>
+      <li></li>
+      <li></li>
+          <ul>
+              <li></li>
+              <li></li>
+          </ul>
+      <li></li>
+      <li></li>
+      <li></li>
+          <ul>
+              <li></li>
+          </ul>
+  </ul>
 ```
-###Ordered list
+### Ordered list
   
