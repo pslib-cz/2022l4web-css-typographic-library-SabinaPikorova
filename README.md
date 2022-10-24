@@ -33,24 +33,33 @@ Size of normal text is ```1rem```.
 * ```<i>``` or ```<em>``` for italic text
 * ```<sub>``` for subscript text
 * ```<sup>``` for superscript text
-* ```<class="colored-text>``` 
+You can even use predefined classes:
+* ```<class="colored-text>``` for colored text. 
 ## Lists
 ### Unordered list
 ```
-  <ul>
-      <li></li>
-      <li></li>
-          <ul>
-              <li></li>
-              <li></li>
-          </ul>
-      <li></li>
-      <li></li>
-      <li></li>
-          <ul>
-              <li></li>
-          </ul>
-  </ul>
+<ul>
+    <li></li>
+    <li>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    <li>
+</ul>
 ```
 ### Ordered list
+<ol>
+    <li></li>
+    <li>
+        <ol>
+            <li></li>
+            <li></li>
+        </ol>
+    <li>
+</ol>
+## Table
+```
+  <table>
+  </table>
   
