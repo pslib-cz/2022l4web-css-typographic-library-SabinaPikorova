@@ -1,5 +1,5 @@
 # Typography CSS library
-**Author:** *Sabina Pikorová*
+**Author:** [Sabina Pikorová](https://github.com/SabinaPikorova)
 ## Description
 This is a free typography library that was created for a school project
 ## Demo site
@@ -21,9 +21,14 @@ Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-Sab
     - [Single picture](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Single-picture)
     - [Gallery](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova#Gallery)
 ## Implementation
-1. Download page.css in docs/download folder
-2. Add file inside your project folder
-3. Link page.css file to <head> in every HTML page using syntax:
+1. Download the files you need in [docs](https://github.com/pslib-cz/2022l4web-css-typographic-library-SabinaPikorova/tree/master/docs) folder
+2. Add files inside your project folder
+3. Link style.css, responsive.css and hamburger.css files to <head> in every HTML page using syntax:
+```<link href="./css/style.ccs rel="stylesheet">```
+```<link href="./css/responsive.ccs rel="stylesheet">```
+```<link href="./css/hamburger.ccs rel="stylesheet">```
+   Also link hamburger.js file to all yours HTML pages and place it after </footer> using syntax:
+```<script href="./js/hamburger.js</script>"```
 ## Colors 
 Typography CSS library has predefined colors. You can find them in style.css folder in ```:root``` selector between the lines 1-4. You can change the colours however you want.
 ## Typography
@@ -106,9 +111,10 @@ You can even use predefined classes:
 ## Buttons
 ```<button class="btn">Button</button>```
 There are 2 predefined button classes:
-* ```class="btn-normal"```
-* ```class="btn-nothing"```
+* ```class="btn-normal"``` for classic button
+* ```class="btn-nothing"``` fur unklickable button
 ## Pictures
+For embending and image in HTML is used tag ```<img>```. Use this syntax for single picture:
 ### Single picture
 ```
 <figure class="gallery__photo">
@@ -119,6 +125,7 @@ There are 2 predefined button classes:
 </figure>
 ```
 ### Gallery
+Use this syntax for photo gallery.
 ```
 <div class="gallery">
     <figure class="gallery__photo>
