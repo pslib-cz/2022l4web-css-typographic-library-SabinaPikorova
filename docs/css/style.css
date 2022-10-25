@@ -71,8 +71,9 @@ header .navbar__menu li a {
 }
 
 .about {
-    background-image: url(../images/background.jpg);
-    padding: 10em 2em 2em 2em;
+    background-image: url(../images/back2.jpg);
+    background-position: center;
+    padding: 15em 2em 2em 2em;
 }
 
 /* Types of text */
