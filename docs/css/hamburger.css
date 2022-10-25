@@ -69,7 +69,6 @@
         width: 50%;
         background-color: black;
         opacity: 90%;
-        max-width: 1300px;
 
         transition: left ease-in-out .4s;
     }

@@ -66,14 +66,19 @@ header .navbar__menu li a {
     color: white;
 }
 
-.headings .text-h1 {
-    font-size: 2em;
-}
-
-.about {
+.main-heading {
     background-image: url(../images/back2.jpg);
     background-position: center;
-    padding: 15em 2em 2em 2em;
+}
+
+.heading-left-border {
+    border-left: 3px solid black;
+    padding-left: 0.2em;
+}
+
+/* Headings */
+.headings .text-h1 {
+    font-size: 2em;
 }
 
 /* Types of text */
