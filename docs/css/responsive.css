@@ -15,7 +15,6 @@
 @media screen and (min-width: 768px) {
     section {
         padding: 2em 80px;
-        max-width: 1300px;
     }
 
     .gallery__photo {
