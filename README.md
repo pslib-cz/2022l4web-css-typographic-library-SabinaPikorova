@@ -34,12 +34,12 @@ Typography CSS library has predefined colors. You can find them in style.css fol
 ## Typography
 Typography css has predefined Roboto Condensed font. If this font isn't from some reason implemented on the page, sans-serif will be used. 
 ## Headings
-* ```<h1>```
-* ```<h2>```
-* ```<h3>```
-* ```<h4>```
-* ```<h5>```
-* ```<h6>```
+* ```<h1>``` font size is 32px
+* ```<h2>``` font size is 24px
+* ```<h3>``` font size is 18.72px
+* ```<h4>``` font size is 16px
+* ```<h5>``` font size is 13.28px
+* ```<h6>``` font size is 10.72px
 ## Types of text
 ### Normal text
 Size of normal text is ```1rem```.
