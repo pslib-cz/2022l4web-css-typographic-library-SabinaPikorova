@@ -16,7 +16,6 @@ body {
 h1 {
     max-width: 1100px;
     margin: auto;
-    font-size: 36px;
 }
 
 main section:nth-child(2) {
@@ -69,7 +68,7 @@ header .navbar__menu li a {
 }
 
 .main-heading {
-    background-image: url(../images/back2.jpg);
+    background-image: url(../images/back.jpg);
     background-position: center;
 }
 
