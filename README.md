@@ -27,7 +27,7 @@ Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-Sab
 * ```<link href="./css/style.ccs rel="stylesheet">```
 * ```<link href="./css/responsive.ccs rel="stylesheet">```
 * ```<link href="./css/hamburger.ccs rel="stylesheet">```
-   Also link hamburger.js file to all yours HTML pages and place it after </footer> using syntax:
+4. You can also link hamburger.js file to all yours HTML pages and place it after </footer> using syntax:
 * ```<script href="./js/hamburger.js</script>"```
 ## Colors 
 Typography CSS library has predefined colors. You can find them in style.css folder in ```:root``` selector between the lines 1-4. You can change the colours however you want.
