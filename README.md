@@ -1,7 +1,7 @@
 # Typography CSS library
 **Author:** [Sabina Pikorová](https://github.com/SabinaPikorova)
 ## Description
-This is a free typography library that was created for a school project
+This is a free typography library that was created for a school project. It can be used and downloaded by anyone who wants some help or inspiration when creating web.
 ## Demo site
 Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-SabinaPikorova)** site for preview.
 ## Parts of the documentation
@@ -42,7 +42,7 @@ Typography css has predefined Roboto Condensed font. If this font isn't from som
 * ```<h6>``` font size is 10.72px
 ## Types of text
 ### Normal text
-Size of normal text is ```1rem```.
+Size of normal text is ```1rem```, which is 16px.
 ### Styled text
 * ```<small>``` for <sub>small</sub> text
 * ```<b>``` or ```<strong>``` for **bold** text 
