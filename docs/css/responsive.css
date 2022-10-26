@@ -1,12 +1,20 @@
+@media screen and (max-width: 459px) {
+    .gallery__flex {
+        flex-wrap: wrap;
+    }
+
+    .gallery__grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 @media screen and (min-width: 460px) {
     .navbar {
         max-width: 1300px;
         padding: 0 80px;
         margin: auto;
     }
-}
 
-@media screen and (min-width: 470px) {
     h1 {
         font-size: 38px;
     }
@@ -14,7 +22,12 @@
     section {
         padding: 0 2em 2em 2em;
     }
+
+    .gallery__grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
 }
+
 
 @media screen and (min-width: 768px) {
     h1 {

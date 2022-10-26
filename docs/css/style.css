@@ -206,7 +206,6 @@ button.btn-nothing:hover,
 .gallery__flex {
     display: flex;
     transition: 0.3s;
-    flex-wrap: wrap;
 }
 
 .gallery__photo {
@@ -234,7 +233,6 @@ button.btn-nothing:hover,
 
 .gallery__grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-auto-rows: 250px;
     gap: 3px;
 }
