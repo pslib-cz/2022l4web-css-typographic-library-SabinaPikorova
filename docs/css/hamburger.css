@@ -4,7 +4,13 @@
   
 .hamburger span:nth-child(3) { bottom: 0px; }
 
-@media screen and(min-width: 719px) {
+@media screen and(max-width: 719px) {
+    .hamburger-nav {
+        width: 40%;
+    }
+}
+
+@media screen and(min-width: 720px) {
     .hamburger-nav {
         width: 30%;
     }
@@ -66,7 +72,6 @@
         top: 0;
         bottom: 0;
         position: fixed;
-        width: 50%;
         background-color: black;
         opacity: 90%;
 
