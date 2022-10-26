@@ -33,7 +33,7 @@
         height: 100vh;
         top: 0;
         padding-top: 4.2em;
-        transition: 0.3s ease;
+        width: 40%;
     }
 
     .navbar .navbar__menu.active {
@@ -44,6 +44,7 @@
 
     .navbar .navbar__menu li {
         display: block;
+        margin: 0;
     }
 
     .navbar .navbar__menu li a {
