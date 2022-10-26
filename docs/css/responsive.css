@@ -29,7 +29,7 @@
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     h1 {
         font-size: 40px;
     }
@@ -78,7 +78,7 @@
     }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 959px) {
     header .navbar__menu li:first-child {
         margin-left: 0;
     }

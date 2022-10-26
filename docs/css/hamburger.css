@@ -4,18 +4,6 @@
   
 .hamburger span:nth-child(3) { bottom: 0px; }
 
-@media screen and(max-width: 719px) {
-    .hamburger-nav {
-        width: 40%;
-    }
-}
-
-@media screen and(min-width: 720px) {
-    .hamburger-nav {
-        width: 30%;
-    }
-}
-
 @media screen and (max-width: 959px) { 
     .hamburger-row {
         display: flex;
@@ -72,6 +60,7 @@
         top: 0;
         bottom: 0;
         position: fixed;
+        width: 50%;
         background-color: black;
         opacity: 90%;
 
@@ -110,10 +99,9 @@
 }
 
 @media screen and (min-width: 960px) {
-
-
     .hamburger-nav {
         transform: none;
+        width: 30%;
     }
 
     .hamburger-nav ul {
