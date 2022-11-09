@@ -70,6 +70,8 @@ header .navbar__menu li a {
 .main-heading {
     background-image: url(../images/back.jpg);
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .heading-left-border {
