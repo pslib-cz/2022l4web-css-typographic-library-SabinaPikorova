@@ -10,13 +10,14 @@
         justify-content: space-between;
         width: 100%;
         height: 67.2px;
+        padding-left: 2em;
     }
 
     .hamburger {
         position: relative;
         width: 38px;
         height: 34px;
-        margin: 1em 0 1.5em 1em;
+        margin: 1em 0 1.5em 0;
         z-index: 2;
 
 
@@ -84,7 +85,7 @@
     .hamburger-nav li > a {
         display: flex;
         justify-content: space-between;
-        padding: 1em 20px 1em 20px;
+        padding: 1em 20px 1em 0;
         margin: 0;
         color: white;
     }
