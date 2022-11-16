@@ -1,7 +1,7 @@
 # Typography CSS library
 **Author:** [Sabina Pikorová](https://github.com/SabinaPikorova)
 ## Description
-This is a free typography library that was created for a school project. It can be used and downloaded by anyone who wants some help or inspiration when creating web.
+This is a free typography library that was created for a school project. It can be used and downloaded by anyone who wants some help or inspiration with creating website.
 ## Demo site
 Link to **[demo](http://pslib-cz.github.io/2022l4web-css-typographic-library-SabinaPikorova)** site for preview.
 ## Parts of the documentation
